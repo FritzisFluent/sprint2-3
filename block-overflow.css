@@ -130,6 +130,7 @@ body {
   height: 310px;
   margin-left: -155px;
   margin-top: -155px;
+  animation: rotation 40s linear infinite;
 }
 
 .star_size_l {
@@ -137,6 +138,7 @@ body {
   height: 420px;
   margin-left: -210px;
   margin-top: -210px;
+  animation: rotation 30s linear infinite;
 }
 
 .star_size_m {
@@ -144,6 +146,7 @@ body {
   height: 420px;
   margin-left: -210px;
   margin-top: -210px;
+  animation: rotation 20s linear infinite;
 }
 
 .dots {
@@ -154,6 +157,18 @@ body {
   height: 460px;
   margin-top: -245px;
   margin-left: -230px;
+}
+
+.dots_size_s {
+  animation: rotation 40s ease-in-out infinite;
+}
+
+.dots_size_m {
+  animation: rotation 30s ease-in-out infinite;
+}
+
+.dots_size_l {
+  animation: rotation 20s ease-in-out infinite;
 }
 
 .demo__row_size_xs {
